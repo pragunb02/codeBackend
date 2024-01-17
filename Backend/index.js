@@ -43,5 +43,6 @@ app.get('/api/jokes',(req,res)=>{   // like api (api array , json object)
     res.send(jokes);
 });
 app.listen(port,()=>{
+    console.log("jdk");
     console.log(`Serve at http://localhost:${port}`);
 });
